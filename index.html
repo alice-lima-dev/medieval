@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+    <title>Medieval</title>
+</head>
+
+<body>
+    <!-- * -->
+    <div class="formulario">
+        <form class="form">
+            <h2>Criação de Personagem</h2>
+            <div class="input-nome">
+                <label>Nome do personagem:</label>
+                <input type="text" id="personagem" placeholder="Nome" required>
+            </div>
+            <div id="input-nome">
+            <label id="classes">Classes:</label>
+            </div>
+            <div class="comum-todos">
+                <select name="Sorcerer" id="vocacao" required>
+                    <option value="placeholder">Selecione uma classe</option>
+                    <option value="Druida">Druida</option>
+                    <option value="Cavaleiro">Cavaleiro</option>
+                    <option value="Arqueiro">Arqueiro</option>]
+                    <option value="Trevas">Trevas</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="input-nome">
+            <label id="servido">Servidor:</label>
+            </div>
+            <div id="select-serve" class="comum-todos">
+                
+                <select name="servidor" id="select-server" required>
+                    <option value="placeholder">Selecione um servidor</option>
+                    <option value="Portugues">BR</option>
+                    <option value="Estados">EUA</option>
+                    <option value="polones">Polonsês</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="input-nome">
+            <label class="tema" id="servidor">Cidade de Origem:</label>
+            </div>
+            <div id="cidade"class="comum-todos"> 
+                <select name="Cidade" required>
+                    <option value="placeholder">Selecione uma Cidade de Origem</option>
+                    <option value="Portugues">Racconon City</option>
+                    <option value="Estados">The Citadel</option>
+                    <option value="polones">Columbia</option>]
+                    </optgroup>
+                </select>
+            
+            </div>
+            <label>Email:</label>
+            <div id="email">
+                
+                <input id="email" type="email" name="email" placeholder="Email" required>
+            </div>
+             <label>Senha:</label>
+            <div id="senha">
+                
+                <input id="senha" type="text" name="senha" placeholder="Senha" required>
+            </div>
+            <button id="botao" onclick="Personagem()">Criar seu personagem</button>
+        </form>
+        <div class="jogador">
+            <h3>Informações do jogador criado</h3>
+            <p id="nome">Nome:</p>
+            <p id="nome">Classe:</p>
+            <p id="nome">Servidor:</p>
+        </div>
+    </div>
+</body>
+
+</html>

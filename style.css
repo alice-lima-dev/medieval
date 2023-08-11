@@ -1,0 +1,64 @@
+
+.formulario{
+    border: solid 2px gray;
+    background-color: white;
+    width: 20%;
+    padding: 20px;
+    height: 750px;
+    margin: 3% 38% 30px ;
+
+}
+body{
+  background-image: url(folha-velha-em-branco-de-textura-de-papel-de-ilustracao-de-fundo-de-papel-grunge_567746-3089.avif) ;
+  background-repeat: no-repeat;
+}
+
+*{
+    margin: 0px;
+}
+h2, h3{
+   font-weight: bold;
+   font-family: sans-serif;
+
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+.comum-todos{
+     margin-top: 5px;
+}
+#nome{
+    margin-top: 15px;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+.tema{
+    margin-top: 15px;
+}
+.input-nome{
+    margin-top: 15px;
+}
+#input-nome{
+    margin-top: 15px;
+}
+select, input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#botao{
+  background-color: #e1ab75;
+  padding: 14px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+
